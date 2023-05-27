@@ -34,8 +34,3 @@ struct Task
 //
 //	return datasets;
 //}
-
-int main()
-{
-	return 0;
-}

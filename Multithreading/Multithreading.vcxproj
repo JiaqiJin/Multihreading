@@ -141,10 +141,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="JobSystem\JobMain.cpp" />
+    <ClCompile Include="JobSystem\JobSystem.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Constant.h" />
+    <ClInclude Include="JobSystem\JobSystem.h" />
+    <ClInclude Include="Multithreading\Constant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

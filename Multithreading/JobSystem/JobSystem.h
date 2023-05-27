@@ -12,7 +12,7 @@ namespace JobSystem
 {
 	void Initialize();
 
-	void Excute(const std::function<void()>& job);
+	void Execute(const std::function<void()>& job);
 
 	void Dispatch(uint32_t jobCount, uint32_t groupSize, const std::function<void(JobDispatchArgs)>& jobs);
 
